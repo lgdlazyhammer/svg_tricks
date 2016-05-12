@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+path {
+  fill: cyan;
+  animation:
+    load 10s linear infinite,
+    color 9s linear infinite;
+}
+
+@keyframes color {
+  33% { fill: yellow; }
+  66% { fill: magenta; }
+}
