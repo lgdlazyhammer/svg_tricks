@@ -10,3 +10,12 @@ path {
   33% { fill: yellow; }
   66% { fill: magenta; }
 }
+
+.my-svg-icon {
+    background-color: red;
+    -webkit-mask-image: url(../img/bird.svg);
+    mask-image: url(../img/bird.svg);
+    width: 400px;
+    height: 690px;
+}
+
